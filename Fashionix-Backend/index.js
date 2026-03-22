@@ -23,13 +23,13 @@ app.listen(process.env.PORT,()=>{
     console.log("Sever is running at port",process.env.PORT);
 })
 
-app.get("/",(req,res)=>{
+/* app.get("/",(req,res)=>{
     res.json({
         status:200,
         success:true,
         message:"api is working"
     })
-})
+}) */
 
 const path = require("path");
 
