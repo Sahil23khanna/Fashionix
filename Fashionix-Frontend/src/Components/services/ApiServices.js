@@ -1,6 +1,7 @@
 import axios from "axios";
 /* const BASE_URL = "http://localhost:5004" */
 const BASE_URL = "/api"
+/* const BASE_URL = "/api-test"; */
 
 class ApiServices {
 
